@@ -45,7 +45,7 @@ export default function AgeCalculator() {
         Age Calculator
       </h1>
       <div className="w-full md:w-4/12 border rounded-lg shadow-md p-4 bg-white dark:bg-black flex flex-col gap-6">
-        <div className="flex gap-8 justify-end w-8/12 mx-auto">
+        <div className="flex gap-8 justify-end w-9/12 mx-auto">
           <label className="block text-lg font-semibold dark:text-white break-keep">
             Date of Birth
           </label>
@@ -64,8 +64,8 @@ export default function AgeCalculator() {
             className="dark:text-white px-2 md:px-4 rounded"
           ></input>
         </div>
-        <div className="flex gap-8 justify-end w-8/12 mx-auto">
-          <label className="block text-lg font-semibold dark:text-white break-keep">
+        <div className="flex gap-8 justify-end w-9/12 mx-auto">
+          <label className="block text-lg font-semibold dark:text-white">
             Age at the Date of
           </label>
           <input

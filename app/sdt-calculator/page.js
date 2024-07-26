@@ -265,7 +265,8 @@ export default function SDTCalculator() {
                     endColor={"#FF471A"}
                     needleTransitionDuration={5000}
                     needleTransition="easeElastic"
-                    textColor="black"
+                    textColor="black dark:text-white"
+                    className="dark:text-white fill-white"
                   />
                   <div
                     className={`text-2xl font-bold mt-4 ${
